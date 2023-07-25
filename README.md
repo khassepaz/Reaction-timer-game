@@ -11,8 +11,18 @@ npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
+```
+
+### serve a server to preview dist files
+
+```
+npm install -g serve
+# -s flag means serve it in Single-Page Application mode
+# which deals with the routing problem below
+serve -s dist
 ```
 
 ### Customize configuration
